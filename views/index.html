@@ -18,8 +18,16 @@
     <div class= "row">
       <div class= "col-lg-6">
         <!-- This is for the thermostat -->
-        <div class= "thermostat">
-          Current temperature: <span id="temperature"></span>
+        <div id= "thermostat">
+          <h1 id="temperature"></h1>
+        </div>
+
+
+        <div id="wrapper">
+          <svg id="meter">
+            <circle r="200" cx="50%" cy="50%" stroke="#9ED763"
+            stroke-width="15" fill="#E9E9E9"></circle>
+          </svg>
         </div>
 
       </div>

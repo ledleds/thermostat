@@ -3,10 +3,6 @@ body {
   /* This is for the entire page */
 }
 
-/*#controls{
-  text-align: left;
-}*/
-
 .button{
   /*background-repeat: no-repeat;*/
   border: none;
@@ -44,36 +40,28 @@ body {
 #power-saving {
   background-color: transparent;
   background-image: url(../Public/img/energy-leaf-on.png);
-  background-size: 100px 80px;
+  background-size: 100px 72px;
   background-repeat: no-repeat;
 }
- /*#city {
-   text-decoration: underline;
- }*/
 
  #get-weather-desc {
     text-transform: capitalize;
  }
-/*#title {
-  color: pink;
-  width: 40%;
-  margin: auto;
-  text-align: center;
+
+#temperature {
+  z-index: 10;
+  margin-top: 205px;
+  margin-left: 160px;
+  /*margin-bottom: -200px;*/
+  position: absolute;
+  font-size: 90px;
 }
 
-#temp-box {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 70%;
-  border: 5px solid grey;
-  padding: 10px;
+#meter {
+  width: 420px;
+  height: 500px;
 }
 
-.buttons {
-  /*background-image: url(../Public/img/energy saving-on.png);*/
-  /*position: absolute;
-  left: 300px;
-  padding: 10px;*/
-  /*padding: 20px
-}*/
+h1 {
+  font-size:
+}
