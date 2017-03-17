@@ -27,33 +27,29 @@
         <!-- This is for the thermostat controls -->
         <div id= "controls">
 
-          <div id= "up-button" type= "submit">
-            <button id="temperature-up">
-              <!-- <img src="../Public/img/up-arrow.png" height= 56px width= 92px> -->
+          <div id= "up-button">
+            <button id="temperature-up" class= "button"> </button>
+          </div>
+
+          <div id= "down-button">
+            <button id="temperature-down" class= "button"> </button>
+          </div>
+
+          <div id= "reset-button">
+            <button id="temperature-reset" class= "button">
+              <!-- <img src="../Public/img/reset.png" height= 90px width = 92px> -->
             </button>
           </div>
 
-          <div class= "down-button">
-            <button id="temperature-down">
-              <img src="../Public/img/down-arrow.png" height= 56px width= 92px>
+          <!-- Power Saving is on? <span id="ps">true</span><br> -->
+
+          <div id="power-saving">
+            <button id="power-saving" class= "button">
+              <!-- <img src="../Public/img/energy-leaf-on.png" height= 58px width= 92px> -->
             </button>
           </div>
 
-          <div class= "reset-button">
-            <button id="temperature-reset">
-              <img src="../Public/img/reset.png" height= 90px width = 92px>
-            </button><br/>
-          </div>
-
-          Power Saving is on? <span id="ps">true</span><br>
-
-          <div class="power-saving">
-            <button id="power-saving">
-              <img src="../Public/img/energy-leaf-on.png" height= 58px width= 92px>
-            </button>
-          </div>
-
-          <div class="power-usage">
+          <div id="power-usage">
             Current usage: <span id="usage"></span><br>
           </div>
 
@@ -61,7 +57,14 @@
       </div>
       <div class= "col-lg-3">
         <!-- This is for the weather -->
-        <div class= "weather">The weather in London is:</div>
+        <div id = "weather">
+          <h1 id= "city">LDN</h1>
+          <hr>
+          <h3>Current forecast:</h3>
+          <div id= "get-weather-desc"></div>
+          <h3>Temperature:</h3>
+          <div id= "get-weather-temp"></div>
+      </div>
       </div>
     </div>
   </div>
