@@ -1,8 +1,8 @@
 body {
-  padding:150px
+  padding: 150px;
 }
 
-h1 {
+/*#title {
   color: pink;
   width: 40%;
   margin: auto;
@@ -18,10 +18,10 @@ h1 {
   padding: 10px;
 }
 
-#buttons {
+.buttons {
   /*background-image: url(../Public/img/energy saving-on.png);*/
-  position: absolute;
+  /*position: absolute;
   left: 300px;
-  padding: 10px;
+  padding: 10px;*/
   /*padding: 20px
-}
+}*/
