@@ -43,7 +43,6 @@ describe('Thermostat', function() {
     it('wont\'t allow to increase past max temperature', function() {
       thermostat.switchMode();
       thermostat._temperature = 32;
-      thermostat.increase();
       expect(function(){thermostat.increase();}).toThrowError(maxMessage);
     });
   });
@@ -58,7 +57,6 @@ describe('Thermostat', function() {
 
     it('wont\'t allow to decrease past min temperature', function() {
       thermostat._temperature = 10;
-      thermostat.decrease();
       expect(function(){thermostat.decrease();}).toThrowError(minMessage)
     });
   });
@@ -80,7 +78,6 @@ describe('Thermostat', function() {
 
     it('wont\'t allow to increase past max temperature when ON', function() {
       thermostat._temperature = 25;
-      thermostat.increase();
       expect(function(){thermostat.increase();}).toThrowError(maxMessage);
     });
 

@@ -1,7 +1,12 @@
 body {
   padding: 150px;
+  /* This is for the entire page */
 }
 
+#up-button {
+  background-color: transparent;
+  /*background-image: url(../Public/img/energy saving-on.png);*/
+}
 /*#title {
   color: pink;
   width: 40%;

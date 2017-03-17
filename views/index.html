@@ -24,17 +24,39 @@
 
       </div>
       <div class= "col-lg-3">
-        <!-- This is for the thermosts controls -->
-        <div class= "controls">
-          <button id="temperature-up">+</button><br>
-          <button id="temperature-down">-</button><br/>
-          <button id="temperature-reset">RESET</button><br/>
-          Current usage: <span id="usage"></span><br>
-          Power Saving is on? <span id="ps">true</span><br>
+        <!-- This is for the thermostat controls -->
+        <div id= "controls">
 
-          <button id="power-saving">
-            <img src="../Public/img/energy saving-on.png" height= 60px width= 60px>
-          </button><br>
+          <div id= "up-button">
+            <button id="temperature-up">
+              <img src="../Public/img/up-arrow.png" height= 56px width= 92px>
+            </button>
+          </div>
+
+          <div class= "down-button">
+            <button id="temperature-down">
+              <img src="../Public/img/down-arrow.png" height= 56px width= 92px>
+            </button>
+          </div>
+
+          <div class= "reset-button">
+            <button id="temperature-reset">
+              <img src="../Public/img/reset.png" height= 90px width = 92px>
+            </button><br/>
+          </div>
+
+          <!-- Power Saving is on? <span id="ps">true</span><br> -->
+
+          <div class="power-saving">
+            <button id="power-saving">
+              <img src="../Public/img/energy-leaf-on.png" height= 58px width= 92px>
+            </button>
+          </div>
+
+          <div class="power-usage">
+            Current usage: <span id="usage"></span><br>
+          </div>
+
         </div>
       </div>
       <div class= "col-lg-3">
